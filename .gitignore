@@ -1,0 +1,28 @@
+# --- Android / Gradle ---
+*.iml
+.gradle/
+local.properties
+.settings/
+/build
+/captures
+.externalNativeBuild
+.cxx
+app/build/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+generated/
+
+# --- IDE ---
+.idea/
+*.hprof
+.DS_Store
+Thumbs.db
+
+# --- 日志/临时 ---
+*.log
+*.tmp
+/tmp/
