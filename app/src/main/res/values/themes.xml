@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Material 3 无 ActionBar 主题。
+      两个关键设置：
+        · windowBackground 用深色：Scrim 档（不支持实时模糊的设备）靠它保证对比度
+        · 状态栏/导航栏透明：配合 enableEdgeToEdge()，让玻璃自己去处理 inset
+    -->
+    <style name="Theme.GlassBrowser" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/glass_window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

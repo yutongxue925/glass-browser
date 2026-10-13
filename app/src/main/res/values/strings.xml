@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">玻璃浏览器</string>
+    <string name="search_or_url">搜索或输入网址</string>
+    <string name="settings">设置</string>
+    <string name="go">前往</string>
+</resources>
